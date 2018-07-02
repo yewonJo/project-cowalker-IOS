@@ -27,7 +27,7 @@
 		944A9F6520E8B50500F5FE80 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A9F6420E8B50500F5FE80 /* Home.storyboard */; };
 		944A9F6720E8B53200F5FE80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6620E8B53200F5FE80 /* HomeViewController.swift */; };
 		944A9F6920E8B58B00F5FE80 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6820E8B58B00F5FE80 /* SearchViewController.swift */; };
-		944A9F6B20E8B59400F5FE80 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6A20E8B59400F5FE80 /* CreateViewController.swift */; };
+		944A9F6B20E8B59400F5FE80 /* CreateNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6A20E8B59400F5FE80 /* CreateNewViewController.swift */; };
 		944A9F6D20E8B5C500F5FE80 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6C20E8B5C500F5FE80 /* AlarmViewController.swift */; };
 		944A9F6F20E8B5CC00F5FE80 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F6E20E8B5CC00F5FE80 /* ProfileViewController.swift */; };
 		944A9F7120E8B5D900F5FE80 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A9F7020E8B5D900F5FE80 /* Search.storyboard */; };
@@ -41,6 +41,8 @@
 		944A9F8220E8DFF700F5FE80 /* MyProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F8120E8DFF700F5FE80 /* MyProjectViewController.swift */; };
 		944A9F8420E8E00E00F5FE80 /* MyPageUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F8320E8E00E00F5FE80 /* MyPageUpdateViewController.swift */; };
 		944A9F8820E8E03D00F5FE80 /* MyBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A9F8720E8E03D00F5FE80 /* MyBagViewController.swift */; };
+		E473A9A720EA27F400B51830 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E473A9A620EA27F400B51830 /* CreateViewController.swift */; };
+		E473A9A920EA286A00B51830 /* CreateNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E473A9A820EA286A00B51830 /* CreateNaviViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +68,7 @@
 		944A9F6420E8B50500F5FE80 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		944A9F6620E8B53200F5FE80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		944A9F6820E8B58B00F5FE80 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		944A9F6A20E8B59400F5FE80 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		944A9F6A20E8B59400F5FE80 /* CreateNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewViewController.swift; sourceTree = "<group>"; };
 		944A9F6C20E8B5C500F5FE80 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		944A9F6E20E8B5CC00F5FE80 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		944A9F7020E8B5D900F5FE80 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,8 @@
 		944A9F8120E8DFF700F5FE80 /* MyProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectViewController.swift; sourceTree = "<group>"; };
 		944A9F8320E8E00E00F5FE80 /* MyPageUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageUpdateViewController.swift; sourceTree = "<group>"; };
 		944A9F8720E8E03D00F5FE80 /* MyBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBagViewController.swift; sourceTree = "<group>"; };
+		E473A9A620EA27F400B51830 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		E473A9A820EA286A00B51830 /* CreateNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNaviViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,8 +221,10 @@
 		944A9F6320E8B3CE00F5FE80 /* 3.Create */ = {
 			isa = PBXGroup;
 			children = (
-				944A9F6A20E8B59400F5FE80 /* CreateViewController.swift */,
+				944A9F6A20E8B59400F5FE80 /* CreateNewViewController.swift */,
 				944A9F7220E8B5E200F5FE80 /* Create.storyboard */,
+				E473A9A620EA27F400B51830 /* CreateViewController.swift */,
+				E473A9A820EA286A00B51830 /* CreateNaviViewController.swift */,
 			);
 			path = 3.Create;
 			sourceTree = "<group>";
@@ -310,7 +316,9 @@
 				9403DD1E20E9306C0049C497 /* MyScrapViewController.swift in Sources */,
 				9403DD1C20E930540049C497 /* ScrapCollectionViewCell.swift in Sources */,
 				9403DD1820E92F890049C497 /* IntroductionCollectionViewCell.swift in Sources */,
-				944A9F6B20E8B59400F5FE80 /* CreateViewController.swift in Sources */,
+				E473A9A920EA286A00B51830 /* CreateNaviViewController.swift in Sources */,
+				944A9F6B20E8B59400F5FE80 /* CreateNewViewController.swift in Sources */,
+				E473A9A720EA27F400B51830 /* CreateViewController.swift in Sources */,
 				944A9F8820E8E03D00F5FE80 /* MyBagViewController.swift in Sources */,
 				944A9F6920E8B58B00F5FE80 /* SearchViewController.swift in Sources */,
 				944A9F5C20E8B0BE00F5FE80 /* APIService.swift in Sources */,
